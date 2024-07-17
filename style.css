@@ -304,9 +304,11 @@ h3:hover {
 }
 
 .cv_style h2 {
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
     font-size: 20px;
-    padding: 10px 0  5px 0;
-
+    padding: 2px 0 ;
 }
 .ed_style ul li:nth-child(1){
     font-size: 14.04px;
@@ -315,11 +317,12 @@ h3:hover {
 }
 
 #box_cv_2 {
-    align-content: center;
+    padding-top:10px ;
 }
 
 #box_cv_2 > img {
-width: 260px;
+width: 160px;
+
 }
 
 
