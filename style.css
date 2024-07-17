@@ -27,10 +27,9 @@
 /* Header */
 
 .header_nav {
-    margin: 0 auto;
-    width: 80%;
+   
     display: flex;
-    flex-direction: row-reverse;
+    justify-content: space-around;
    
 
    
@@ -41,7 +40,6 @@
 .header_nav ul {
     height: 50px;
     display: flex;
-    
     gap: 10px;
     align-items: center;
 }
@@ -67,13 +65,14 @@
 /* Main */
 
 .box_home{
-    min-height: 73.5vh;
+    display: flex;
+    justify-content: center;
     
 }
 .main_container {
    display: flex;
    padding-top: 100px;
-    margin: 0 auto;
+
     width: 500px;
 }
 
@@ -311,12 +310,11 @@ h3:hover {
 }
 
 #box_main_CV  {
-    
+    justify-content: center;
     padding-top: 20px;
     display: flex;
     gap: 40px;
-    margin: 0 auto;
-    width: 60%;
+  
    
    
 
@@ -372,16 +370,9 @@ width: 160px;
 
 @media only screen and (max-device-width: 1045px) {
     .body_center {
-        margin: 0 auto;
-        width: 60%;
+       justify-content: center;
     }
 
-
-    .body_center header {
-        display: flex;
-        justify-content: center;
-
-    }
 
     /*Pag Home*/
 
