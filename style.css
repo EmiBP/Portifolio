@@ -19,7 +19,7 @@
 
 .body_center {
     margin: 0 auto;
-    width: 80%;
+    max-width: 80%;
     height: auto;
     background-color: rgb(236, 219, 196);
 
@@ -184,6 +184,7 @@ h3:hover {
 
 .container_about_txt{
     margin-top: 30px;
+    max-width: 400px;
 }
 
 .container_about_txt span{
