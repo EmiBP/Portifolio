@@ -119,10 +119,7 @@
 
 /*box1_about*/
 
-#box1_about{
-    max-width: 300px;
-   
-}
+
 .cards {
     
     display: flex;
@@ -216,6 +213,12 @@ h3:hover {
    
 }
 
+.box_tec_about p{
+    
+    padding-bottom: 8px;
+    
+}
+
 
 .container_about_txt p {
     margin-top: 10px;
@@ -224,17 +227,24 @@ h3:hover {
 }
 
 
+.container_about_txt p:nth-child(5) {
+   border-top: dashed black 2px;
+    
+}
+
+
 /*box2_about*/
 
 
 #box2_about img {
-    width: 400px;
+    width: 500px;
     margin-top: 65px;
     
     border: solid cornflowerblue 1.7px;
     border-radius: 10px;
     
 }
+
 
 /*Contacts- pag4*/
 
@@ -345,3 +355,24 @@ width: 160px;
     width: 0px;
 }
 
+@media only screen and (max-device-width: 1045px) {
+    .body_center {
+        margin: 0 auto;
+        width: 60%;
+    }
+
+    .body_center header {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    #box2_about img{
+        display: flex;
+      
+        width: 100%;
+    }
+    .main_pag_about {
+        flex-direction: column-reverse;
+    }
+    }
