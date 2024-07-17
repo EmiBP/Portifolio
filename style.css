@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+HR+Lijeva:wght@100..400&family=Space+Grotesk:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+   
+    
+}
+
+/*Home - pag 1*/
+
+
+.body_center {
+    margin: 0 auto;
+    width: 80%;
+    height: auto;
+    background-color: rgb(236, 219, 196);
+
+}
+
+/* Header */
+
+.header_nav {
+    display: flex;
+    flex-direction: row-reverse;
+   
+
+   
+}
+.header_nav ul {
+    height: 50px;
+    display: flex;
+    
+    gap: 10px;
+    align-items: center;
+}
+
+.header_nav ul li a, #btn-hover {
+  font-size: 0.70em;
+  color: rgb(29, 29, 29);
+  padding: 5px;
+  border-radius: 3px;
+  border: solid cornflowerblue 1px;
+  background-color: transparent;
+
+
+}
+
+.header_nav ul li a:hover, #btn-hover:hover {
+    
+    color: cornflowerblue;
+    border-color: black;
+    transition: 0.5s;
+}
+
+/* Main */
+
+.home {
+    padding-top: 100px;
+    margin: 0 auto;
+    width: 500px;
+}
+
+.main_container {
+   display: flex;
+}
+
+
+.main_container section .main_about {
+    padding-top: 20px;
+}
+
+.main_container h1 {
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    display: inline-block;
+    font-size: 18px;
+    color: cornflowerblue;
+}
+.container_main_1 {
+    padding-top: 30px;
+}
+
+.container_main_1 h3 {
+    font-size: 12px;
+    
+}
+
+.container_main_1 p:nth-child(1) {
+   
+    font-size: 13px;
+
+}
+#p2_home {
+    padding: 10px 0;
+    font-size: 12.3px;
+ }
+ 
+
+
+.container_main_2 img {
+    width: 130px;
+    height: 150px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 200px 300px;
+}
+
+
+/*Projects - pag 2*/
+
+/*box1_about*/
+.cards {
+    
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: center;
+    gap: 50px;
+    padding-top: 40px;
+   
+  
+    
+}
+
+.cards .card {
+   
+  
+    width: 250px;
+    height: 40%;
+    
+    border: solid black 1px;
+    border-radius: 150px;
+    border: transparent;
+    background-color: rgb(153, 180, 231);
+    border-radius: 10px ;   
+    
+}
+
+.card img {
+    width: 250px;
+
+}
+
+.cards .card p {
+
+    font-size: 10px;
+   
+    padding: 15px;
+}
+
+/* About - pag3*/
+
+#about_h3 {
+    display: inline-block;
+   
+    font-size: 30px;
+
+  
+   
+    
+}
+h3:hover {
+    color: cornflowerblue;
+    transition: 0.5s;
+}
+
+
+.main_pag_about {
+    padding-top: 20px;
+    display: flex;
+    gap: 10px;
+    margin: 0 auto;
+    width: 80%;
+    
+}
+
+.container_about_txt{
+    margin-top: 30px;
+}
+
+.container_about_txt span{
+   font-size: 16px;
+}
+
+.container_about_txt p {
+    
+    font-size: 13px;
+}
+
+
+.container_about_txt img {
+    width: 30px;
+}
+
+.box_imgs_tec {
+    display: flex;
+    flex-direction: row;
+}
+
+.box_tec_about{
+   padding-top: 20px;
+   
+}
+
+
+.container_about_txt p {
+    margin-top: 10px;
+    font-size: 13px;
+    
+}
+
+
+/*box2_about*/
+
+
+#box2_about img {
+    width: 400px;
+    margin-top: 65px;
+    
+    border: solid cornflowerblue 1.7px;
+    border-radius: 10px;
+    
+}
+
+/*Contacts- pag4*/
+
+#box_contacts {
+    padding-top: 100px ;
+    margin: 0 auto;
+    width: 50%;
+}
+
+#box_contacts div img{
+
+    width: 40px;
+
+}
+
+.box_1_2_3_contacts{
+    margin-top: 5px;
+  
+    display: flex;
+    gap: 20px;
+   
+    align-items:center;
+    
+}
+
+#box_contacts img:hover {
+    width: 47px;
+    transition: 0.1s;
+}
+
+
+#box_contacts a, #box_contacts p {
+    font-size: 13px;
+    color: black;
+
+
+}
+
+
+
+#box_contacts a:hover {
+    color: cornflowerblue;
+    transition: 0.4s;
+}
+
+
+/*CV - pag5*/
+
+.cv_style {
+    font-size: 12px;
+}
+
+#box_main_CV  {
+    
+    padding-top: 40px;
+    display: flex;
+    gap: 40px;
+   
+   
+
+}
+
+#box_cv_1 h1 {
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 40px;
+
+}
+.box_work h3 {
+    padding: 5px 0 1.5px 0;
+
+}
+
+.cv_style h2 {
+    font-size: 20px;
+    padding: 10px 0  5px 0;
+
+}
+.ed_style ul li:nth-child(1){
+    font-size: 14.04px;
+    color: rgb(46, 99, 198);
+    font-weight: 800;
+}
+
+#box_cv_2 {
+    align-content: center;
+}
+
+#box_cv_2 > img {
+width: 260px;
+}
+
+
+
+
+
+/* Footer*/
+
+
+
+
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
