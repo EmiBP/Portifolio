@@ -20,7 +20,7 @@
 .body_center {
    
     height: auto;
-    background-color: rgb(236, 219, 196);
+    background-color: rgb(253, 253, 253);
 
 }
 
@@ -120,8 +120,6 @@
     
 }
 
-/*Footer*/
-
 /*Contacts*/
 
 #box_contacts {
@@ -181,7 +179,7 @@
     flex-wrap: wrap;
    justify-content: center;
     gap: 50px;
-    padding-top: 40px;
+    padding-top: 20px;
    
   
     
@@ -235,7 +233,7 @@ h3:hover {
     display: flex;
     gap: 35px;
     margin: 0 auto;
-    width: 80%;
+    max-width: 1024px;
     
 }
 
@@ -293,7 +291,7 @@ h3:hover {
 
 #box2_about img {
     width: 500px;
-    margin-top: 65px;
+    margin-top: 20px;
     
     border: solid cornflowerblue 1.7px;
     border-radius: 10px;
@@ -313,7 +311,9 @@ h3:hover {
     justify-content: center;
     padding-top: 20px;
     display: flex;
-    gap: 40px;
+    gap: 30px;
+    margin: 0 10px 10px;
+
   
    
    
@@ -377,11 +377,11 @@ width: 160px;
     /*Pag Home*/
 
     .main_container {
-      
         flex-direction: column-reverse;
         display: flex;
+        padding-top: 16px;
         align-items: center;
-        padding-top: 100px;
+        padding-top: 10px;
     }
 
     .container_main_2 {
