@@ -18,8 +18,7 @@
 
 
 .body_center {
-    margin: 0 auto;
-    max-width: 1120px;
+   
     height: auto;
     background-color: rgb(236, 219, 196);
 
@@ -28,12 +27,17 @@
 /* Header */
 
 .header_nav {
+    margin: 0 auto;
+    width: 80%;
     display: flex;
     flex-direction: row-reverse;
    
 
    
 }
+
+
+
 .header_nav ul {
     height: 50px;
     display: flex;
@@ -62,14 +66,15 @@
 
 /* Main */
 
-.home {
-    padding-top: 100px;
-    margin: 0 auto;
-    width: 500px;
+.box_home{
+    min-height: 73.5vh;
+    
 }
-
 .main_container {
    display: flex;
+   padding-top: 100px;
+    margin: 0 auto;
+    width: 500px;
 }
 
 
@@ -87,6 +92,7 @@
 }
 .container_main_1 {
     padding-top: 30px;
+    width: 60%;
 }
 
 .container_main_1 h3 {
@@ -107,12 +113,62 @@
 
 
 .container_main_2 img {
-    width: 130px;
-    height: 150px;
+    width: 200px;
+    
     object-fit: cover;
     object-position: center;
     border-radius: 200px 300px;
+    
 }
+
+/*Footer*/
+
+/*Contacts*/
+
+#box_contacts {
+    min-height: 100px;
+    
+    padding: 30px 0;
+    margin: 0 auto;
+    width: 500px;
+}
+
+#box_contacts div img{
+
+    width: 20px;
+
+}
+
+.box_1_2_3_contacts{
+    margin-top: 5px;
+  
+    display: flex;
+    gap: 20px;
+   
+    align-items:center;
+    
+}
+
+#box_contacts img:hover {
+    width: 17px;
+    transition: 0.1s;
+}
+
+
+#box_contacts a, #box_contacts p {
+    font-size: 13px;
+    color: black;
+
+
+}
+
+
+
+#box_contacts a:hover {
+    color: cornflowerblue;
+    transition: 0.4s;
+}
+
 
 
 /*Projects - pag 2*/
@@ -246,49 +302,6 @@ h3:hover {
 }
 
 
-/*Contacts- pag4*/
-
-#box_contacts {
-    padding-top: 100px ;
-    margin: 0 auto;
-    width: 50%;
-}
-
-#box_contacts div img{
-
-    width: 40px;
-
-}
-
-.box_1_2_3_contacts{
-    margin-top: 5px;
-  
-    display: flex;
-    gap: 20px;
-   
-    align-items:center;
-    
-}
-
-#box_contacts img:hover {
-    width: 47px;
-    transition: 0.1s;
-}
-
-
-#box_contacts a, #box_contacts p {
-    font-size: 13px;
-    color: black;
-
-
-}
-
-
-
-#box_contacts a:hover {
-    color: cornflowerblue;
-    transition: 0.4s;
-}
 
 
 /*CV - pag5*/
@@ -299,9 +312,11 @@ h3:hover {
 
 #box_main_CV  {
     
-    padding-top: 10px;
+    padding-top: 20px;
     display: flex;
     gap: 40px;
+    margin: 0 auto;
+    width: 60%;
    
    
 
@@ -361,11 +376,29 @@ width: 160px;
         width: 60%;
     }
 
+
     .body_center header {
         display: flex;
         justify-content: center;
 
     }
+
+    /*Pag Home*/
+
+    .main_container {
+      
+        flex-direction: column-reverse;
+        display: flex;
+        align-items: center;
+        padding-top: 100px;
+    }
+
+    .container_main_2 {
+       margin-top: 40px;
+    }
+
+
+    /*Pag About*/
 
     #box2_about img{
         display: flex;
@@ -375,4 +408,8 @@ width: 160px;
     .main_pag_about {
         flex-direction: column-reverse;
     }
-    }
+
+   
+
+   
+}
