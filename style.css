@@ -19,7 +19,7 @@
 
 .body_center {
    
-    height: auto;
+   
     background-color: rgb(253, 253, 253);
 
 }
@@ -130,7 +130,7 @@
 #box_contacts {
     min-height: 100px;
     
-    padding: 30px 0;
+    padding: 15px 0;
     margin: 0 auto;
     width: 500px;
 }
