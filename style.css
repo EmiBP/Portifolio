@@ -111,15 +111,20 @@
  
 
 
-.container_main_2 img {
-    width: 200px;
+ .container_main_2 img {
     
-    object-fit: cover;
-    object-position: center;
-    border-radius: 200px 300px;
+     width: 200px;
+     object-fit: cover;
+     object-position: center;
+     border-radius: 200px 300px;
+     
+ }
+ .container_main_2 {
     
-}
-
+    align-content: center;
+     
+ }
+ 
 /*Contacts*/
 
 #box_contacts {
