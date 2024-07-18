@@ -419,6 +419,7 @@ width: 160px;
         flex-direction: column;
         padding-bottom: 0;
         gap: 0;
+        margin-bottom: 10px;
     }
 
     #box_cv_2 {
