@@ -316,10 +316,9 @@ h3:hover {
 
 #box_main_CV  {
     justify-content: center;
-    padding-top: 20px;
     display: flex;
     gap: 30px;
-    margin: 0 10px 10px;
+    padding: 20px;
 
   
    
