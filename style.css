@@ -14,15 +14,17 @@
     
 }
 
+.body_center {
+   
+    background-color: #ebe9e9;
+ 
+
+}
+
+
 /*Home - pag 1*/
 
 
-.body_center {
-   
-   
-    background-color: rgb(253, 253, 253);
-
-}
 
 /* Header */
 
@@ -72,7 +74,7 @@
 .main_container {
    display: flex;
    padding-top: 100px;
-
+    gap: 10px;
     width: 500px;
 }
 
@@ -129,10 +131,9 @@
 
 #box_contacts {
     min-height: 100px;
-    
+   justify-content: center;
     padding: 15px 0;
-    margin: 0 auto;
-    width: 500px;
+    
 }
 
 #box_contacts div img{
@@ -151,10 +152,7 @@
     
 }
 
-#box_contacts img:hover {
-    width: 17px;
-    transition: 0.1s;
-}
+
 
 
 #box_contacts a, #box_contacts p {
@@ -167,6 +165,7 @@
 
 
 #box_contacts a:hover {
+    font-weight: 800;
     color: cornflowerblue;
     transition: 0.4s;
 }
@@ -388,6 +387,8 @@ width: 160px;
 @media only screen and (max-device-width: 1045px) {
     .body_center {
        justify-content: center;
+    min-height: 900px;
+
     }
 
 
