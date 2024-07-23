@@ -59,7 +59,7 @@
 
 .header_nav ul li a:hover, #btn-hover:hover {
     
-    color: cornflowerblue;
+    color: rgb(156, 183, 234);
     border-color: black;
     transition: 0.5s;
 }

@@ -3,8 +3,8 @@
 
 
 window.addEventListener('load', function() {
-    
     adicionarElementos()
+    addActive()
    
     
 })
@@ -30,12 +30,30 @@ function adicionarElementos() {
 
 }
 
+function addActive() {
+   let tagsA = document.querySelectorAll('.header_nav nav ul li a');
+   const h_home = document.getElementById('h_home');
+   const h_cv = document.getElementById('h_cv');
+   const h_projects = document.getElementById('h_projects');
+   const h_about = document.getElementById('h_about');
 
+  
+   for (let index = 0; index < tagsA.length; index++) {
+    const listA = tagsA[index];
+    const currentHref = listA.getAttribute('href');
 
+    
+    if(currentHref == 'index.html' && h_home || currentHref == 'CV.html' && h_cv || currentHref == 'about.html' && h_about || currentHref  == 'projects.html' && h_projects) {
+        listA.style.backGroundColor = 'rgb(154, 187, 249)';
+
+    }  
+
+   }
+   
 
    
 
-
-
+    
+}
 
 
