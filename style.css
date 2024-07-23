@@ -57,11 +57,11 @@
 
 }
 
-.header_nav ul li a:hover, #btn-hover:hover {
+.btn_mio:hover {
     
-    color: rgb(156, 183, 234);
-    border-color: black;
-    transition: 0.5s;
+  font-weight: 700;
+    
+   
 }
 
 /* Main */
@@ -230,7 +230,7 @@
     
 }
 h3:hover {
-    color: cornflowerblue;
+    color: rgb(182, 192, 211);
     transition: 0.5s;
 }
 
@@ -429,6 +429,7 @@ width: 160px;
 
     #box_cv_2 {
         padding-top: 0;
+
         
     }
 

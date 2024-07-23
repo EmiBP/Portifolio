@@ -44,7 +44,11 @@ function addActive() {
 
     
     if(currentHref == 'index.html' && h_home || currentHref == 'CV.html' && h_cv || currentHref == 'about.html' && h_about || currentHref  == 'projects.html' && h_projects) {
-        listA.style.backGroundColor = 'rgb(154, 187, 249)';
+       
+      
+        listA.style.backgroundColor = 'rgb(221, 225, 233)';
+        listA.style.fontWeight = "800";
+
 
     }  
 
