@@ -60,4 +60,34 @@ function addActive() {
     
 }
 
+// slider Projects
+
+const scrollContainer = document.querySelector(".containerSlider")
+const btn1 = document.querySelector("#btn1");
+const btn2 = document.querySelector("#btn2");
+
+  
+scrollContainer.addEventListener("wheel", (evt) => { 
+  evt.preventDefault();
+  scrollContainer.scrollLeft += evt.deltaY;
+  scrollContainer.style.scrollBehavior = "smooth";
+
+});
+
+
+btn1.addEventListener("click", event =>{
+ 
+  scrollContainer.style.scrollBehavior = "smooth";
+  scrollContainer.scrollLeft -= 900;
+
+})
+
+
+btn2.addEventListener("click", event =>{
+    scrollContainer.style.scrollBehavior = "smooth";
+    scrollContainer.scrollLeft += 900;
+})
+
+
+
 

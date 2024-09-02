@@ -171,7 +171,6 @@
 }
 
 
-
 /*Projects - pag 2*/
 
 /*box1_about*/
@@ -372,7 +371,114 @@ width: 160px;
 }
 
 
+/* slider Projetcs */
 
+
+/*buttons*/
+#btn-destra-sinistra {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px 0;
+    background-color:transparent;
+   
+   }
+   
+   #btn-destra-sinistra button {
+  
+     background-color: transparent;
+     border: transparent;
+
+    
+    }
+   
+   /* #btn-destra-sinistra button:hover {
+  
+     transform: rotate(1s);
+
+    
+    } */
+   
+
+   
+   .imgIcon {
+     float: left;
+     width: 30px;
+     margin: 10px;
+   }
+   
+   /*slider*/
+   
+   .containerSlider{
+    color: rgb(15, 0, 0);
+    margin: 0 auto;
+     max-width: 599px;
+     height: 350px;
+     display: flex;
+     overflow: scroll;
+     background-color: rgb(222, 253, 253);
+     border-radius: 10px;
+   }
+   
+   
+   .containerSlider div{
+     width: 100%;
+     display: flex;
+     gap: 10px;
+     grid-template-columns: auto; 
+     grid-gap: 20px;
+     flex: none;
+   }
+
+
+
+   .scrolBox .boxInfo_projects  {
+    
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 30px;
+    background-color: #dcdada;    
+    
+ 
+  
+   }
+
+   .scrolBox .boxInfo_projects span{
+    
+    text-align: center;
+  
+    
+  
+   }
+  .boxInfo_projects a{
+    font-weight: 800;
+    color: rgb(39, 38, 38);
+  
+    
+  
+   }
+   
+
+   .scrolBox div img {
+    width: 200px;
+    height: 180px;
+    border-radius: 10px;
+    
+   }
+   
+   .containerSlider::-webkit-scrollbar {
+    display: none;
+   }
+  
+
+
+
+   
+
+ 
+   
+   
 
 
 /* Footer*/
@@ -434,7 +540,13 @@ width: 160px;
         
     }
 
-   
+    .containerSlider div{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex: none;
+       
+      }
 
    
 }
