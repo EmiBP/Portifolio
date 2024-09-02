@@ -546,6 +546,7 @@ width: 160px;
     .scrolBox .boxInfo_projects  {
     
         flex-direction: column;
+        background-color: #ebe9e9;
         
     }
 
