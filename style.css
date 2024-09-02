@@ -377,6 +377,7 @@ width: 160px;
 /*buttons*/
 #btn-destra-sinistra {
     display: flex;
+    
     justify-content: center;
     gap: 30px;
     padding: 20px 0;
@@ -546,7 +547,12 @@ width: 160px;
     
         flex-direction: column;
         
-     
+    }
+
+    .containerSlider {
+        align-items: center;
+         height: 500px;
+         background-color: #dcdada;
       
        }
 

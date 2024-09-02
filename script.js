@@ -5,6 +5,9 @@
 window.addEventListener('load', function() {
     adicionarElementos()
     addActive()
+    cambiaWidthButton(img_btn1)
+    cambiaWidthButton(img_btn2)
+
    
     
 })
@@ -88,6 +91,36 @@ btn2.addEventListener("click", event =>{
     scrollContainer.scrollLeft += 900;
 })
 
+
+// mouseover event button project
+
+const img_btn1 = document.getElementById('img_btn1');
+const img_btn2 = document.getElementById('img_btn2');
+
+function cambiaWidthButton(x) {
+    x.style.borderRadius = '20px';
+
+    x.addEventListener("mouseover", event =>{
+        
+        x.style.backgroundColor = 'rgb(153, 180, 231)';
+        
+        
+       
+       })
+     
+       
+     x.addEventListener("mouseout", event =>{
+
+      
+         x.style.backgroundColor = 'transparent';
+     
+       
+       })
+
+}
+
+
+  
 
 
 
