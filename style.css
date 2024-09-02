@@ -540,13 +540,17 @@ width: 160px;
         
     }
 
-    .containerSlider div{
-        width: 100%;
-        display: flex;
+    /* Projects */
+
+    .scrolBox .boxInfo_projects  {
+    
         flex-direction: column;
-        flex: none;
-       
-      }
+        
+     
+      
+       }
+
+    
 
    
 }
