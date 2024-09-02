@@ -393,19 +393,13 @@ width: 160px;
     
     }
    
-   /* #btn-destra-sinistra button:hover {
-  
-     transform: rotate(1s);
-
-    
-    } */
-   
 
    
    .imgIcon {
      float: left;
-     width: 30px;
+     width: 20px;
      margin: 10px;
+    
    }
    
    /*slider*/
@@ -413,7 +407,7 @@ width: 160px;
    .containerSlider{
     color: rgb(15, 0, 0);
     margin: 0 auto;
-     max-width: 599px;
+     max-width: 599.3px;
      height: 350px;
      display: flex;
      overflow: scroll;
@@ -436,9 +430,9 @@ width: 160px;
    .scrolBox .boxInfo_projects  {
     
     display: flex;
-    gap: 20px;
+    gap: 30px;
     align-items: center;
-    padding: 30px;
+    padding: 20px;
     background-color: white;    
     
  
@@ -492,10 +486,10 @@ width: 160px;
     width: 0px;
 }
 
-@media only screen and (max-device-width: 1045px) {
+@media only screen and (max-device-width: 700px) {
     .body_center {
        justify-content: center;
-    min-height: 900px;
+        min-height: 900px;
 
     }
 
@@ -552,8 +546,10 @@ width: 160px;
 
     .containerSlider {
         align-items: center;
-         height: 500px;
+        margin-top: 40px;
+         height: 410px;
         background-color: white;
+        
       
     }
 
@@ -563,5 +559,12 @@ width: 160px;
 
     
 
+   
+}
+@media only screen and (max-device-width: 600px) {
+   
+    .containerSlider{
+         border-radius: 0px;
+       }
    
 }
