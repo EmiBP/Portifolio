@@ -546,18 +546,18 @@ width: 160px;
     .scrolBox .boxInfo_projects  {
     
         flex-direction: column;
-        background-color: #ebe9e9;
+        background-color: white;
         
     }
 
     .containerSlider {
         align-items: center;
          height: 500px;
-        background-color: #ebe9e9;
+        background-color: white;
       
     }
 
-    .btn-destra-sinistra {
+    #btn-destra-sinistra {
         display: none;
     }
 
