@@ -417,7 +417,7 @@ width: 160px;
      height: 350px;
      display: flex;
      overflow: scroll;
-     background-color: rgb(222, 253, 253);
+     background-color: cornflowerblue;
      border-radius: 10px;
    }
    
@@ -439,7 +439,7 @@ width: 160px;
     gap: 20px;
     align-items: center;
     padding: 30px;
-    background-color: #dcdada;    
+    background-color: white;    
     
  
   
