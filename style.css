@@ -397,7 +397,7 @@ width: 160px;
    
    .imgIcon {
      float: left;
-     width: 20px;
+     width: 30px;
      margin: 10px;
     
    }
@@ -433,11 +433,23 @@ width: 160px;
     gap: 30px;
     align-items: center;
     padding: 20px;
-    background-color: white;    
+    background-color: white; 
+       
     
  
   
    }
+
+   .boxInfo_projects > a {
+    padding-bottom: 5px;
+   border-bottom: 2px solid cornflowerblue ;
+
+       
+    
+ 
+  
+   }
+
 
    .scrolBox .boxInfo_projects span{
     

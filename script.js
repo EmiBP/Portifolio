@@ -7,6 +7,7 @@ window.addEventListener('load', function() {
     addActive()
     cambiaWidthButton(img_btn1)
     cambiaWidthButton(img_btn2)
+    cambiaColorStyle(cambia_colorLinks)
 
    
     
@@ -96,13 +97,14 @@ btn2.addEventListener("click", event =>{
 
 const img_btn1 = document.getElementById('img_btn1');
 const img_btn2 = document.getElementById('img_btn2');
+const cambia_colorLinks = document.querySelectorAll('.cambia_colorLinks')
 
 function cambiaWidthButton(x) {
-    x.style.borderRadius = '20px';
+
 
     x.addEventListener("mouseover", event =>{
         
-        x.style.backgroundColor = 'rgb(153, 180, 231)';
+        x.style.transform = "scaleX(1.2)";
         
         
        
@@ -112,15 +114,43 @@ function cambiaWidthButton(x) {
      x.addEventListener("mouseout", event =>{
 
       
-         x.style.backgroundColor = 'transparent';
+         x.style.transform = "rotate(0)";
      
        
        })
 
 }
 
+function cambiaColorStyle(x) {
+    x.forEach(element => {
+        
 
+    element.addEventListener("mouseover", event =>{
+        
+        element.style.color = 'rgb(153, 180, 231)';
+        
+        
+       
+       })
+     
+       
+     element.addEventListener("mouseout", event =>{
+
+      
+         element.style.color = 'black';
+     
+       
+       })
+ 
+    });
   
+}
+
+
+
+
+   
+
 
 
 
